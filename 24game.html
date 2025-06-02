@@ -231,7 +231,7 @@
   <br />
   <p class="text-center text-muted" id="daily-number"></p>
   <div class="text-center mt-4">
-    <a href="mailto:raj@mathplusacademy.com?subject=Bug Report for Daily 24 Game" class="btn btn-outline-danger">
+    <a href="mailto:drrajshah@me.com?subject=Bug Report for Daily 24 Game" class="btn btn-outline-danger">
       Report a Bug
     </a>
   </div>
@@ -584,9 +584,9 @@
         // Remove the word "Share"
         originalText = originalText.replace(/\bShare\b\s*/g, '').trim();
         // Define title and link (in plain-text form for max compatibility)
-        const titleWithLink = "https://games.mathplusacademy.com/24game.html";
+        const titleWithLink = "https://extras.drrajshah.com/24game.html";
         // Build plain-text output
-        const plainText = `MPA's Daily 24 Challenge\n${originalText}\n\n${titleWithLink}`;
+        const plainText = `Daily 24 Challenge\n${originalText}\n\n${titleWithLink}`;
         navigator.clipboard.writeText(plainText).then(() => {
           alert("Copied to clipboard!");
         }).catch(err => {
